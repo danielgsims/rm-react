@@ -11,6 +11,7 @@ class App extends Component {
               <li><Button type="secondary">Secondary Button</Button></li>
               <li><Button type="tertiary">Tertiary Button</Button></li>
               <li><Button type="primary" disabled={true}>Disabled Button</Button></li>
+              <li><Button type="primary" spinner={true}>Spinner</Button></li>
           </ul>
       </div>
     );

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+import Spinner from '../spinner/index';
 
 class Button extends React.Component {
     render () {
@@ -15,7 +16,7 @@ class Button extends React.Component {
         });
 
         return <button className={classes} onClick={onClick}>
-            { spinner ? 'spinning!' : children}
+            { spinner ? <Spinner/> : children}
         </button>
     }
 }
