@@ -17,7 +17,6 @@ TextInput.propTypes = {
     error: PropTypes.string,
     id: PropTypes.string,
     helperText: PropTypes.string,
-    href: PropTypes.string,
     disabled: PropTypes.bool
 };
 
