@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import './assets/css/spark.css';
 import Button from './sprk/components/button/index.js';
-import InputContainer from './sprk/components/inputcontainer/index.js';
-import TextInput from './sprk/components/textinput/index.js';
+import InputContainer from './sprk/components/input/container.js';
+import TextInput from './sprk/components/input/textinput.js'
+import Checkbox from './sprk/components/input/checkbox.js'
 
 class App extends Component {
   render() {
@@ -18,6 +19,11 @@ class App extends Component {
               <li>
                   <InputContainer>
                       <TextInput label="Example Text" type="text" />
+                  </InputContainer>
+              </li>
+              <li>
+                  <InputContainer>
+                      <Checkbox label="Example Checkbox"/>
                   </InputContainer>
               </li>
           </ul>
